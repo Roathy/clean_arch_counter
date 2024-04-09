@@ -344,6 +344,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.0"
+  metabadge:
+    dependency: "direct main"
+    description:
+      name: metabadge
+      sha256: f32722f4bae2d629825eb87adce9212c3057d1cff206569ce175a351d871e8a5
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0"
   mockito:
     dependency: "direct dev"
     description:
