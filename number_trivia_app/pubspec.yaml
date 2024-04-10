@@ -21,7 +21,7 @@ dependencies:
   # Dartz for functional programming
   dartz: ^0.10.1
   # Networking and Remote API
-  connectivity_plus: ^5.0.2
+  connectivity_plus: ^6.0.2
   http: ^1.2.0
   # Local Cache
   shared_preferences: ^2.2.2
@@ -34,7 +34,7 @@ dev_dependencies:
   mockito: ^5.4.4
     
 
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.2
 
 flutter:
 
