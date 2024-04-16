@@ -24,7 +24,7 @@ void main() {
     const tNumberTrivia = NumberTrivia(number: 1, text: 'test');
 
     // arrange
-    when(mockNumberTriviaRepository.getConcreteNumberTrivia(any)).thenAnswer((_) async => const Right(tNumberTrivia));
+    when(mockNumberTriviaRepository.getConcreteNumberTrivia(1)).thenAnswer((_) async => const Right(tNumberTrivia));
     // act
     final result = await usecase(const Params(number: tNumber));
 
